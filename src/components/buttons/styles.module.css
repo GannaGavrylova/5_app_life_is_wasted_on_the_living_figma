@@ -1,0 +1,47 @@
+.buttons_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons_container > button {
+  background-color: black;
+  border-radius: 65px;
+  margin-bottom: 195px;
+  border: 3px solid #1ed760;
+  width: 446px;
+  height: 175px;
+}
+
+.icon {
+  fill: #1ed760;
+  transition: all 0.5s ease;
+  width: 105px;
+  height: 98px;
+  padding: 10px;
+  cursor: pointer;
+  overflow: visible;
+}
+.icon:hover * {
+  fill: #1181f1;
+  transform: translateY(-10px);
+}
+
+@media screen and (max-width: 768px) {
+  .buttons_container > button {
+    margin-bottom: 145px;
+    max-width: 376px;
+    max-height: 155px;
+  }
+  .icon {
+    width: 95px;
+    height: 88px;
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 398px) {
+  .buttons_container > button {
+    max-width: 346px;
+  }
+}

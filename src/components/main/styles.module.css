@@ -1,0 +1,28 @@
+.main_container {
+  color: #1ed760;
+  text-align: center;
+  font-family: "Rubik";
+  font-weight: 700;
+}
+
+.main_container > h1 {
+  font-size: 64px;
+  line-height: 76px;
+}
+
+.main_container > p {
+  font-size: 32px;
+  line-height: 38px;
+}
+
+.main_container > h1,
+p {
+  padding-bottom: 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .main_container > h1 {
+    font-size: 54px;
+    line-height: 70px;
+  }
+}
